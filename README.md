@@ -1,5 +1,7 @@
 # runshare
 
+> 模仿咕咚运动分享 vue-cli3 高德地图
+
 ## Project setup
 ```
 yarn install
@@ -24,6 +26,3 @@ yarn run test
 ```
 yarn run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
