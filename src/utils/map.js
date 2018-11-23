@@ -14,7 +14,7 @@ export function createMap () {
       let script = document.createElement('script')
       script.type = 'text/javascript'
       script.src =
-        '//webapi.amap.com/maps?v=1.4.2&key=a1d18d96648e0935409f72e76ef484b7&callback=init' // 高德地图
+        '//webapi.amap.com/maps?v=1.4.2&key=&callback=init' // 高德地图
       script.id = 'AMap'
       document.querySelector('head').appendChild(script)
       script.onerror = function () {
