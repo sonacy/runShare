@@ -77,7 +77,7 @@ export default {
       this.startPoint.style.top = this.pos[0].y - this.startPoint.offsetHeight / 2 + 'px'
       this.lightPoint.style.display = 'block'
 
-      ctx.lineWidth = 5
+      ctx.lineWidth = 3
       ctx.shadowBlur = 1
       ctx.lineJoin = 'round'
       ctx.lineCap = 'round'

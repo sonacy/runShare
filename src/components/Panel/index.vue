@@ -5,9 +5,6 @@
         <span class="big">{{user.distance}}</span>
         <span class="small">公里</span>
       </div>
-      <div class="tag">
-        vivo Jovi智慧场景.运动
-      </div>
       <div class="logo">
         <div class="outter">
           <img src="@/assets/logo.png">
@@ -69,12 +66,6 @@ export default {
       .small
         padding-left 10px
         font-size 12px
-    .tag
-      position absolute
-      top -24px
-      font-size 12px
-      color #fff
-      font-weight 300
     .logo
       position absolute
       top -24px
